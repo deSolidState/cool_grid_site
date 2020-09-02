@@ -1,0 +1,18 @@
+html {
+  box-sizing: border-box;
+}
+
+/*
+  if you have components that work with a different box-sizing value and you don't have time to fix them.
+*/
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+  text-align: center;
+  border: 3px dashed red;
+  border-radius: 17px;
+}
